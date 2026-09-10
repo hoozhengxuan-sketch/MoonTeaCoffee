@@ -52,10 +52,68 @@ and hapiness to every customer.
 <!--Our story-->
 <section id="story">
 <img class="story logo"  src="../img/logo_nobackground.png"   alt=" Moon Tea & Coffee Logo">   
-<h3>  
-
-
-
-
+<h3>  Experienced brewing for one hundred years </h3> 
+<div class="story line ">  </div> 
+<p> 
+Moon Tea & Coffee started with a simple dream: to make a space that would warm, 
+refresh and truly bring happiness with each cup. With the spirit of the moon and 
+the warmth of the camaraderie of a drink, we felt compelled to promote beverages 
+prepared using the finest of tea leaves, top-notch coffee beans, and fresh fruits.
+</p>
+<p> 
+Each recipe is carefully designed to create the ideal balance of taste, quality and 
+consistency. From a refreshing fruit tea to a smooth milk tea and a rich cup of coffee, 
+each coffee is made with care to make moments that you can share with family, friends and love.
+</p>
+<p> 
+Today, Moon Tea and coffee is to continue to expand,and maintaining its original values at the same time 
+</p> 
+</section> 
+<!--Our history-->
+<section id="history"> 
+<div class="history-title">   
+<h2> Journey across time </h2>
+</div> 
+<div class="history-container"> 
+<!--Left-->
+<div class="timeline"> 
+<div class="timeline-item active" data index="0">
+<div class="square"></div> 
+<div class="timeline-info"> 
+<h4> 2024 </h4> 
+<P> kuala lumpur <p> 
+</div> 
+</div>
+<div class="timeline-item"  data index="1"> 
+<div class="square"></div> 
+<div class="timeline-info">  
+<h4> 2026 </h4>
+<p> penang </p> 
+<div class="timeline-item"  data index="2"> 
+<div class="square"></div> 
+<div class="timeline-info">  
+<h4> 2022 </h4>
+<p> johor baharu </p> 
+<div class="timeline-item"  data index="3"> 
+<div class="square"></div> 
+<div class="timeline-info">  
+<h4> 2020 </h4> 
+<p> klang </p>   
+</div>
+</div>
+</div>
+<!--Right--> 
+<div id="history content"> 
+<img src="../img/KL_Store.jpeg"
+alt="Moon Tea & Coffee Store"
+class="history_store"
+id="historyImage">
+<div class="history-text">
+<h3 class="location-tag" id="historyTitle">
+Kuala lumpur 
+</h3>  
+<p id="history description">
+In 2020, the first store was opened 
+</p>
 
 
