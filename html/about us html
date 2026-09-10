@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+<title>Moon Tea & Coffee · About Us</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="../css/about us.css">          
+</head>
+<body>
+<!-- ========== Navbar ========== -->
+<header class="navbar">
+ <div class="container">            
+<a href="about us.html" class="logo">
+<img src="../img/logo.png" alt="Logo" class="logo-icon">
+<span class="logo-text">Moon<span>Tea & Coffee</span></span>
+<span class="slogan-tag">Stare the moon, Find your way!</span>
+</a>      
+ <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+<i class="fas fa-bars"></i>
+</button>
+<ul class="nav-links" id="navLinks">
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="team.html">Team Portf.</a></li>
+<li><a href="member.html" class="nav-cta">Login | Register</a></li>
+<li><button id="themeToggle">🌙</button></li>
+</ul>
+</div>
+</header>
+<main class="container">
+<!--Hero-->
+<main>
+<section id="hero">
+<div class="rectangle"></div>
+<div class="triangle"></div>
+<div class="hero-container">
+<div class="hero-content">          
+<h1> brewing happinesss,<br> one at one time</h1><hr> 
+<p> 
+Discover the history behind night tea and coffee.<br> 
+From carefully selected drinks, we are to bring warthm,<br>
+and hapiness to every customer.
+</p> 
+</div>
+<div class="hero image ">   
+<img src="../img/abouthero.png" alt="About Moon Tea & Coffee">
+</div>
+</div>
+</section>
+<!--Our story-->
+<section id="story">
+<img class="story logo"  src="../img/logo_nobackground.png"   alt=" Moon Tea & Coffee Logo">   
+<h3>  
+
+
+
+
+
 
