@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sun Tea & Coffee · Home</title>
+    <title>Moon Tea & Coffee · Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/home.css">
 </head>
@@ -15,7 +15,7 @@
             <a href="home.html" class="logo">
                 <img src="../img/logo.png" alt="Logo" class="logo-icon">
                 <span class="logo-text">Sun<span>Tea & Coffee</span></span>
-                <span class="slogan-tag">Sip the Sun, Find your way!</span>
+                <span class="slogan-tag">Stare the moon, Find your way!</span>
             </a>
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                 <i class="fas fa-bars"></i>
@@ -39,9 +39,9 @@
             <div class="hero-content">
                 <h1>
                     Every Cup,<br>
-                    <span class="highlight">a Taste of Sunshine</span>
+                    <span class="highlight">a Taste of Moonlight</span>
                 </h1>
-                <p>Fresh fruit tea · Aromatic coffee · Handcrafted milk tea<br>Brighten your day with every sip.</p>
+                <p>Fresh fruit tea · Fresh coffee · Handcrafted milk tea<br>Brighten your night with every sip.</p>
                 <a href="menu.html" class="hero-btn">
                     Explore Menu <i class="fas fa-arrow-right"></i>
                 </a>
@@ -57,12 +57,12 @@
             <div class="card">
                 <div class="card-icon"><img src="../img/fruittea.png" alt="Fruit Tea"></div>
                 <h3>Fruit Tea</h3>
-                <p>Fresh-cut fruit × brewed tea – a burst of natural sunshine.</p>
+                <p>Fresh-cut fruit × brewed tea – a ray of natural moonlight.</p>
             </div>
             <div class="card">
                 <div class="card-icon"><img src="../img/COFFEE.png" alt="Coffee"></div>
                 <h3>Brewed Coffee</h3>
-                <p>Premium Arabica beans, rich and aromatic to kickstart your morning.</p>
+                <p>Premium Arabica beans, rich and roasted to end the day </p>
             </div>
             <div class="card">
                 <div class="card-icon"><img src="../img/MILKTEA.png" alt="Milktea"></div>
@@ -79,7 +79,7 @@
         
         <div class="feature-banner">
             <div class="quote">
-                <i class="fas fa-quote-left"></i> Sip the Sun, Find your way!
+                <i class="fas fa-quote-left"></i> !
             </div>
             <div class="sub">
                 <i class="fas fa-sun" style="color: #F28C28;"></i> Fresh · Healthy · Energetic
