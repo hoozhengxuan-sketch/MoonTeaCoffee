@@ -104,7 +104,7 @@
                 </div>
                 <div class="panel-content">
                     <h4>Fresh Ingredients</h4>
-                    <p>Direct from orchards, delivered fresh daily</p>
+                    <p>Direct from orchards, delivered fresh at night</p>
                 </div>
             </div>
 
@@ -114,7 +114,7 @@
                 </div>
                 <div class="panel-content">
                     <h4>Crafted with Care</h4>
-                    <p>Every cup filled with sunshine and sincerity</p>
+                    <p>Every cup filled with pure moonlight</p>
                 </div>
             </div>
         </div>
@@ -126,16 +126,16 @@
                 <div class="form-group">
                     <label for="productSelect">Choose a product:</label>
                     <select id="productSelect">
-                        <option value="Classic Pearl Milk Tea (RM8.90)">Classic Pearl Milk Tea - RM 8.90</option>
-                        <option value="Brown Sugar Pearl Milk Tea (RM9.90)">Brown Sugar Pearl Milk Tea - RM 9.90</option>
-                        <option value="Matcha Latte (RM9.50)">Matcha Latte - RM 9.50</option>
+                        <option value="Classic Pearl Milk Tea (RM8.90)">Classic Pearl Milk Tea - RM 6.90</option>
+                        <option value="Brown Sugar Pearl Milk Tea (RM9.90)">Brown Sugar Pearl Milk Tea - RM 7.90</option>
+                        <option value="Matcha Latte (RM11.50)">Matcha Latte - RM 11.50</option>
                         <option value="Taro Milk Tea (RM8.90)">Taro Milk Tea - RM 8.90</option>
                         <option value="Hokkaido Milk Tea (RM9.50)">Hokkaido Milk Tea - RM 9.50</option>
                         <option value="Thai Milk Tea (RM8.90)">Thai Milk Tea - RM 8.90</option>
                         <option value="Lemon Green Tea (RM7.90)">Lemon Green Tea - RM 7.90</option>
                         <option value="Lychee Green Tea (RM8.90)">Lychee Green Tea - RM 8.90</option>
                         <option value="Peach Oolong Tea (RM8.90)">Peach Oolong Tea - RM 8.90</option>
-                        <option value="Mango Oolong Tea (RM9.90)">Mango Oolong Tea - RM 9.90</option>
+                        <option value="Watermelon Oolong Tea (RM15.90)">Watermelon Oolong Tea - RM 15.90</option>
                         <option value="Americano (RM7.90)">Americano - RM 7.90</option>
                         <option value="Latte (RM8.90)">Latte - RM 8.90</option>
                         <option value="Hazelnut Latte (RM9.50)">Hazelnut Latte - RM 9.50</option>
@@ -175,8 +175,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-col">
-                <h4>Sun Tea & Coffee</h4>
-                <p>Sip the Sun, Find your way!</p>
+                <h4>Moon Tea & Coffee</h4>
+                <p>Stare the moon, Find your way!</p>
                 <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
             </div>
             <div class="footer-col">
@@ -197,7 +197,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>☀️ Crafted with care · Sun Tea & Coffee</span>
+                <span>☀️ Crafted with care · Moon Tea & Coffee</span>
             </div>
         </div>
     </footer>
