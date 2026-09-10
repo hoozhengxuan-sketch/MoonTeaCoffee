@@ -14,7 +14,7 @@
         <div class="container">
             <a href="home.html" class="logo">
                 <img src="../img/logo.png" alt="Logo" class="logo-icon">
-                <span class="logo-text">Sun<span>Tea & Coffee</span></span>
+                <span class="logo-text">Moon<span>Tea & Coffee</span></span>
                 <span class="slogan-tag">Stare the moon, Find your way!</span>
             </a>
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
