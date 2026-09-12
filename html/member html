@@ -15,7 +15,7 @@
     <header class="navbar">
         <div class="container">
             <a href="home.html" class="logo">
-                <img src="../img/logo.png" alt="Sun Tea & Coffee Logo" class="logo-icon">
+                <img src="../img/logo.png" alt="Moon Tea & Coffee Logo" class="logo-icon">
                 <span class="logo-text">Sun<span>Tea & Coffee</span></span>
                 <span class="slogan-tag">Sip the Sun, Find your way!</span>
             </a>
@@ -137,7 +137,7 @@
                         <label for="regPhone">Phone Number <span class="required">*</span></label>
                         <div class="input-wrapper">
                             <i class="fas fa-phone input-icon"></i>
-                            <input type="tel" id="regPhone" placeholder="e.g. 0123456789" required aria-describedby="errPhone">
+                            <input type="tel" id="regPhone" placeholder="e.g. 0123456987" required aria-describedby="errPhone">
                         </div>
                         <small class="error-msg" id="errPhone"></small>
                     </div>
@@ -234,7 +234,7 @@
             <!-- Greeting -->
             <div id="greetingContainer" class="greeting-box hidden" aria-live="polite">
                 <div class="greeting-icon"><i class="fas fa-sun"></i></div>
-                <h2 id="greetingTitle">Welcome Back, Sunshine Member!</h2>
+                <h2 id="greetingTitle">Welcome Back, Moonlight Member!</h2>
                 <p id="greetingMessage">We are brewing your favorite drink with extra warmth today.</p>
                 
                 <div class="member-stats">
@@ -261,7 +261,7 @@
         <div class="container">
             <div class="footer-col">
                 <h4>Sun Tea & Coffee</h4>
-                <p>Sip the Sun, Find your way!</p>
+                <p>Braze the moon, Find your way!</p>
                 <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
             </div>
             <div class="footer-col">
@@ -282,7 +282,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>☀️ Crafted with care · Sun Tea & Coffee</span>
+                <span>☀️ Crafted with care · Moon Tea & Coffee</span>
             </div>
         </div>
     </footer>
