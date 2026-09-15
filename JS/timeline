@@ -17,7 +17,7 @@ const historyData = [
 {
     image: "../img/Penang_Store.jpeg",
     title: "Penang",
-    text: "In 2026, Sun Tea & Coffee arrived in Penang, continuing our mission of sharing fresh tea, premium coffee, and unforgettable moments with customers across Malaysia."
+    text: "In 2026, Moon Tea & Coffee arrived in Penang, continuing our mission of sharing fresh tea, premium coffee, and unforgettable moments with customers across Malaysia."
 }
 ];
 
