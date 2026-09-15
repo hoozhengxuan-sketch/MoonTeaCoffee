@@ -2,12 +2,12 @@ const historyData = [
 {
     image: "../img/KL_Store.jpeg",
     title: "Kuala Lumpur",
-    text: "In 2023,Sun Tea & Coffee opened its first store in Kuala Lumpur, with the combination of high-quality tea leaves, fresh fruits and good coffee, creating handcrafted drinks. This was the start to us of providing warmth, freshness and happiness in every cup."
+    text: "In 2023,Moon Tea & Coffee opened its first store in Kuala Lumpur, with the combination of high-quality tea leaves, fresh fruits and good coffee, creating handcrafted drinks. This was the start to us of providing warmth, freshness and happiness in every cup."
 },
 {
     image: "../img/Klang_Store.jpeg",
     title: "Klang",
-    text: "In 2024, Sun Tea & Coffee expanded to Klang, allowing more customers to enjoy our handcrafted drinks. The outlet was soon a popular family, student, and coffee-lover's destination."
+    text: "In 2024, Moon Tea & Coffee expanded to Klang, allowing more customers to enjoy our handcrafted drinks. The outlet was soon a popular family, student, and coffee-lover's destination."
 },
 {
     image: "../img/Johor_Store.jpeg",
