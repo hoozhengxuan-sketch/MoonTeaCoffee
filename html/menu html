@@ -37,7 +37,7 @@
     </section>
     <section class="menu-poster">
         <img src="../img/menu_promotion.jpg" alt="Season Special">
-        <img src="../img/menu_special.jpg" alt="Coffee Promotion">
+        <img src="../img/menu_special.jpg" alt="Fruit Tea Promotion">
     </section>
     
     <!-- ========== Category ========== -->
@@ -247,7 +247,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>☀️ Crafted with care · Sun Tea & Coffee</span>
+                <span>☀️ Crafted with care · Moon Tea & Coffee</span>
             </div>
         </div>
     </footer>
