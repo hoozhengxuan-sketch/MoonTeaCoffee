@@ -1,1 +1,18 @@
+@import url('homepage.css');
+
+.menu {
+    padding: 2rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.menu-item {
+    background-color: var(--accent);
+    padding: 1rem;
+    border-radius: 8px;
+}
 
