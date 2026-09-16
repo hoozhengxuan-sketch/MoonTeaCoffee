@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonTea – Home</title>
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/moontea-logo.png" alt="MoonTea logo">
+            <h1>MoonTea</h1>
+        </div>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="member.html">My Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to MoonTea</h2>
+            <p>Night-inspired bubble tea crafted for calm, cosy evenings.</p>
+            <a href="menu.html" class="cta-btn">Explore Our Menu</a>
+        </section>
+
+        <section class="intro">
+            <h2>Why MoonTea?</h2>
+            <p>
+                We specialise in evening-friendly tea blends with lower caffeine,
+                soothing flavours, and a cosy ambience.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 MoonTea. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
