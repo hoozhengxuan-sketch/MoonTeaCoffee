@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonTea – Hoo Portfolio</title>
+    <link rel="stylesheet" href="css/member.css" media="screen">
+    <link rel="stylesheet" href="css/member-print.css" media="print">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="member.html">My Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bio">
+            <h1>Hoo – Frontend Developer</h1>
+            <p>Student in BSc (Hons) Computer Science, passionate about web fundamentals and clean UI.</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>BSc (Hons) Computer Science – Moon University</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skill">
+                <span>HTML &amp; CSS</span>
+                <div class="skill-bar">
+                    <div class="skill-fill htmlcss"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="skill-bar">
+                    <div class="skill-fill js"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li>MoonTea Multi-Page Website – Homepage, Menu, JS Catalogue.</li>
+            </ul>
+        </section>
+
+        <section class="cv">
+            <button type="button">Download CV (Simulated)</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 MoonTea. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
