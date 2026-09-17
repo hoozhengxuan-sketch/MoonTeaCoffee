@@ -1,8 +1,67 @@
-@import url('homepage.css');
+/* ===========================
+   VARIABLES
+=========================== */
+:root {
+    --primary: #2b2d42;
+    --secondary: #8d99ae;
+    --accent: #edf2f4;
+    --text-light: #ffffff;
+    --text-dark: #2b2d42;
 
-.about {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+
+    --radius: 6px;
+    --transition: 0.3s ease;
 }
 
+/* ===========================
+   GLOBAL RESET
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--accent);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+header {
+    background-color: var(--primary);
+    color: var(--text-light);
+    padding: var(--spacing-md);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+
+.nav-links a:hover {
+    background-color: var(--secondary);
+}
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+.about {
+    max-width
