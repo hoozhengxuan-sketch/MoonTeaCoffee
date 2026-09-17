@@ -1,11 +1,24 @@
+/* ===========================
+   CSS VARIABLES
+=========================== */
 :root {
     --primary: #2b2d42;
     --secondary: #8d99ae;
     --accent: #edf2f4;
     --text-light: #ffffff;
     --text-dark: #2b2d42;
+
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+
+    --radius: 6px;
+    --transition: 0.3s ease;
 }
 
+/* ===========================
+   GLOBAL RESET
+=========================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,21 +29,30 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--accent);
     color: var(--text-dark);
+    line-height: 1.6;
+    transition: background-color var(--transition), color var(--transition);
 }
 
+/* ===========================
+   HEADER
+=========================== */
 header {
     background-color: var(--primary);
     color: var(--text-light);
-    padding: 1rem;
+    padding: var(--spacing-md);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--spacing-sm);
 }
 
 .logo img {
@@ -38,61 +60,33 @@ header {
     height: 50px;
 }
 
+/* ===========================
+   NAVIGATION
+=========================== */
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: var(--spacing-md);
 }
 
 .nav-links a {
     color: var(--text-light);
     text-decoration: none;
     font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    border-radius: var(--radius);
+    transition: var(--transition);
 }
 
-.nav-links a:hover {
-    text-decoration: underline;
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: var(--secondary);
+    outline: 2px solid var(--accent);
 }
 
+/* ===========================
+   HERO SECTION
+=========================== */
 .hero {
     text-align: center;
-    padding: 4rem 1rem;
-    background-color: var(--secondary);
-    color: var(--text-light);
-}
-
-.cta-btn {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 1.5rem;
-    background-color: var(--primary);
-    color: var(--text-light);
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.intro {
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--primary);
-    color: var(--text-light);
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-    }
-}
-
+    padding: var(--spacing-lg) var(--spacing-md
