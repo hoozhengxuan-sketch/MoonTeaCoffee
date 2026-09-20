@@ -14,7 +14,7 @@
             <a href="home.html" class="logo">
                 <img src="../img/logo.png" alt="Logo" class="logo-icon">
                 <span class="logo-text">Sun<span>Tea & Coffee</span></span>
-                <span class="slogan-tag">Sip the Sun, Find your way!</span>
+                <span class="slogan-tag">Brace the moon,find your way!</span>
             </a>
             <button class="menu-toggle" id="menuToggle" aria-label="Menu">
                 <i class="fas fa-bars"></i>
@@ -39,25 +39,25 @@
         <div class="hero-content">
             <h1>Brewing Happiness,<br>One Cup at a Time</h1><hr>
             <p>
-                Discover the passion behind Sun Tea & Coffee.<br>
+                Discover the passion behind Moon Tea & Coffee.<br>
                 From carefully selected ingredients to handcrafted beverages,<br>
                 we are committed to bringing warmth, freshness,
                 and happiness to every customer.
             </p>
         </div>
         <div class="hero-image">
-            <img src="../img/abouthero.png" alt="About Sun Tea & Coffee">
+            <img src="../img/abouthero.png" alt="About Moon Tea & Coffee">
         </div>
     </div>
 </section>
 
 <!--Our story-->
 <section id="story">
-    <img class="story-logo" src="../img/logo_nobackground.png" alt="Sun Tea & Coffee Logo">
+    <img class="story-logo" src="../img/logo_nobackground.png" alt="Moon Tea & Coffee Logo">
     <h3>Brewing Happiness Since Day One</h3>
     <div class="story-line"></div>
     <p>
-        Sun Tea & Coffee started with a simple dream: to make a space that would warm, 
+        Moon Tea & Coffee started with a simple dream: to make a space that would warm, 
         refresh and truly bring happiness with each cup. With the spirit of the sun and 
         the warmth of the camaraderie of a drink, we felt compelled to promote beverages 
         prepared using the finest of tea leaves, top-notch coffee beans, and fresh fruits.
@@ -68,7 +68,7 @@
         each coffee is made with care to make moments that you can share with family, friends and love.
     </p>
     <p>
-        Today, Sun Tea & Coffee is continuing to grow, and we continue to maintain our original values. 
+        Today, Moon Tea & Coffee is continuing to grow, and we continue to maintain our original values. 
         We continue to innovate, provide outstanding service and make unforgettable memories, cup by cup.
     </p>
 </section>
@@ -121,7 +121,7 @@
                     Kuala Lumpur
                 </h3>
                 <p id="historyDescription">
-                    In 2023,Sun Tea & Coffee opened its first store in Kuala Lumpur, with the combination of 
+                    In 2023,Mo Tea & Coffee opened its first store in Kuala Lumpur, with the combination of 
                     high-quality tea leaves, fresh fruits and good coffee, creating handcrafted drinks. 
                     This marked the beginning of our commitment to bringing warmth, freshness, and happiness in every cup.
                 </p>
@@ -130,10 +130,10 @@
     </div>
 </section>
 
-<!--Why Choose Sun Tea & Coffee-->
+<!--Why Choose Moonn Tea & Coffee-->
 <section id="why">
     <div class="why-title">
-        <h2>Why Choose Sun Tea & Coffee?</h2>
+        <h2>Why Choose Moon Tea & Coffee?</h2>
     </div>
     <div class="why-container">
         <div class="why-card">
@@ -282,7 +282,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <span>☀️ Crafted with care · Sun Tea & Coffee</span>
+                <span>☀️ Crafted with care · Moon Tea & Coffee</span>
             </div>
         </div>
     </footer>
