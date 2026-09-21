@@ -3,52 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Team | Moon Tea Coffee</title>
+  <title>Our Team | MoonTea Coffee</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="member.css">
 </head>
 <body>
   <header>
-    <h1>Moon Tea Coffee</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+    <h1>MoonTea Coffee</h1>
+    <nav aria-label="Main navigation">
+      <a href="home.html">Home</a>
       <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
       <a href="member.html">Members</a>
-      <a href="contact.html">Contact</a>
+      <a href="portfolio.html">Team Portfolio</a>
     </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙 Toggle Theme</button>
   </header>
 
-  <section class="team-hero">
-    <h2>Meet Our Team</h2>
-    <p>Passionate people behind every cup of tea and coffee.</p>
-  </section>
+  <main>
+    <section class="team-hero fade-in">
+      <h2>Meet Our Team</h2>
+      <p>Passionate people behind every cup of tea and coffee.</p>
+    </section>
 
-  <section class="team-container">
-    <div class="team-card">
-      <img src="member1.jpg" alt="Founder">
-      <h3>Jane Moon</h3>
-      <p>Founder & Head Barista</p>
-      <p>Jane started Moon Tea Coffee with a dream to blend tradition and creativity in every sip.</p>
-    </div>
+    <section class="team-container">
+      <div class="team-card fade-in" data-role="Founder & Head Barista">
+        <img src="member1.jpg" alt="Jane Moon - Founder">
+        <h3>Jane Moon</h3>
+        <p>Founder & Head Barista</p>
+        <button class="details-btn">View Contribution</button>
+        <div class="details hidden">
+          <p>Jane started MoonTea Coffee with a dream to blend tradition and creativity in every sip. She designed the brand theme and developed the homepage.</p>
+        </div>
+      </div>
 
-    <div class="team-card">
-      <img src="member2.jpg" alt="Tea Specialist">
-      <h3>Ken Tan</h3>
-      <p>Tea Specialist</p>
-      <p>Ken curates artisan teas from around the world, ensuring every brew is authentic and refreshing.</p>
-    </div>
+      <div class="team-card fade-in" data-role="Tea Specialist">
+        <img src="member2.jpg" alt="Ken Tan - Tea Specialist">
+        <h3>Ken Tan</h3>
+        <p>Tea Specialist</p>
+        <button class="details-btn">View Contribution</button>
+        <div class="details hidden">
+          <p>Ken curates artisan teas from around the world. He implemented the menu page and catalogue filter/search feature.</p>
+        </div>
+      </div>
 
-    <div class="team-card">
-      <img src="member3.jpg" alt="Pastry Chef">
-      <h3>Amira Lee</h3>
-      <p>Pastry Chef</p>
-      <p>Amira crafts seasonal pastries that perfectly complement our drinks, adding sweetness to your day.</p>
-    </div>
-  </section>
+      <div class="team-card fade-in" data-role="Pastry Chef">
+        <img src="member3.jpg" alt="Amira Lee - Pastry Chef">
+        <h3>Amira Lee</h3>
+        <p>Pastry Chef</p>
+        <button class="details-btn">View Contribution</button>
+        <div class="details hidden">
+          <p>Amira crafts seasonal pastries and designed the review module. She also contributed to accessibility testing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+    <p>&copy; 2026 MoonTea Coffee. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
