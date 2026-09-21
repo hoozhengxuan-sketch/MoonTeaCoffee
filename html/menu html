@@ -1,112 +1,46 @@
 <!DOCTYPE html>
-<html> 
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon Tea & Coffee · Menu</title> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/menu.css"> 
-</head> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Moon Tea Coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="menu.css">
+</head>
 <body>
+  <header>
+    <h1>Moon Tea Coffee</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="member.html">Members</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-    <div class="container">
-        <a href="home.html" class="logo">
-            <img src="../img/moontea-logo.png" alt="Moon Tea & Coffee Logo" class="logo-icon">
-            <span class="logo-text">Moon<span>Tea & Coffee</span></span>
-            <span class="slogan-tag">Sip the Moon, Find Your Calm!</span>
-        </a>
+  <section class="menu-hero">
+    <h2>Our Menu</h2>
+    <p>Signature drinks and pastries crafted with love.</p>
+  </section>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <ul class="nav-links" id="navLinks">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="team.html">Team Portf.</a></li>
-            <li><a href="member.html" class="nav-cta">Login | Register</a></li>
-            <li><button id="themeToggle">🌙</button></li>
-        </ul>
+  <section class="menu-container">
+    <div class="menu-card">
+      <img src="latte.jpg" alt="Moon Latte">
+      <h3>Moon Latte</h3>
+      <p>A creamy espresso blend inspired by moonlight.</p>
+      <span class="price">RM12</span>
     </div>
-</header>
 
-<main>
-    <section class="menu-hero">
-        <img src="../img/menu_hero.jpg" alt="Moon Tea & Coffee Menu">
-    </section>
-
-    <section class="menu-poster">
-        <img src="../img/menu_promotion.jpg" alt="Season Special">
-        <img src="../img/menu_special.jpg" alt="Coffee Promotion">
-    </section>
-    
-    <section id="category">
-        <img class="c-logo" src="../img/moontea-logo-nobg.png" alt="Moon Tea & Coffee Logo">
-        <h2>Our Product</h2>
-
-        <div class="category-control">
-            <div class="category-container">
-                <button class="category-card active" data-category="all">All</button>
-                <button class="category-card" data-category="milktea">Milk Tea</button>
-                <button class="category-card" data-category="fruittea">Fruit Tea</button>
-                <button class="category-card" data-category="coffee">Coffee</button>
-            </div>
-
-            <div class="search-sort">
-                <input type="text" id="searchBox" placeholder="Search product...">
-                <select id="sortSelect">
-                    <option value="default">Sort</option>
-                    <option value="name">Name</option>
-                    <option value="low">Price Low → High</option>
-                    <option value="high">Price High → Low</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- Product Grid (unchanged, brand-neutral) -->
-        <div id="product-list">
-            <!-- All product cards remain the same -->
-        </div>
-    </section>
-</main>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer-col">
-            <h4>Moon Tea & Coffee</h4>
-            <p>Sip the Moon, Find Your Calm!</p>
-            <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
-        </div>
-
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Product Menu</a>
-            <a href="team.html">Team Portfolio</a>
-            <a href="member.html">Member Registration</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p><i class="fas fa-envelope"></i> hello@moontea.com</p>
-            <p><i class="fas fa-phone"></i> +60 10-630-0000</p>
-            <div style="display:flex; gap:14px; margin-top:12px; font-size:1.4rem;">
-                <a href="https://www.instagram.com/moonteacoffee"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/moonteacoffee"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <span>🌙 Crafted with care · Moon Tea & Coffee</span>
-        </div>
+    <div class="menu-card">
+      <img src="green-tea.jpg" alt="Jasmine Green Tea">
+      <h3>Jasmine Green Tea</h3>
+      <p>Refreshing floral notes with a calming aroma.</p>
+      <span class="price">RM10</span>
     </div>
-</footer>
 
-<script src="../js/main.js"></script>
-<script src="../js/menu.js"></script>
-
-</body> 
-</html>
+    <div class="menu-card">
+      <img src="cold-brew.jpg" alt="Cold Brew">
+      <h3>Cold Brew</h3>
+      <p>Slow-brewed coffee, smooth and bold.</p>
+      <span class="price">
