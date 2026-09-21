@@ -1,118 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon Tea & Coffee · Team</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/team.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Moon Tea Coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
 </head>
-
 <body>
+  <header>
+    <h1>Moon Tea Coffee</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="member.html">Members</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-    <div class="container">
-        <a href="home.html" class="logo">
-            <img src="../img/moontea-logo.png" alt="Moon Tea & Coffee Logo" class="logo-icon">
-            <span class="logo-text">Moon<span>Tea & Coffee</span></span>
-            <span class="slogan-tag">Sip the Moon, Find Your Calm!</span>
-        </a>
+  <section class="portfolio-hero">
+    <h2>Our Portfolio</h2>
+    <p>Showcasing our creative journey and community events.</p>
+  </section>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <ul class="nav-links" id="navLinks">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="team.html">Team Portf.</a></li>
-            <li><a href="member.html" class="nav-cta">Login | Register</a></li>
-            <li><button id="themeToggle">🌙</button></li>
-        </ul>
-    </div>
-</header>
-
-<section class="hero">
-    <div class="hero-content">
-        <span class="hero-badge">
-            <i class="fas fa-users"></i> Meet the Team
-        </span>
-        <h1>Meet Our <span class="highlight">Creative Team</span></h1>
-        <p>Discover the developers of Moon Tea & Coffee</p>
-    </div>
-</section>
-
-<section id="members">
-    <div class="section-title">
-        <h3>Our Team Members</h3>
-        <p>Meet the students who designed and developed the Moon Tea & Coffee website.</p>
+  <section class="portfolio-grid">
+    <div class="portfolio-card">
+      <img src="event1.jpg" alt="Coffee Workshop">
+      <h3>Coffee Workshop</h3>
+      <p>Hands-on brewing sessions with our baristas.</p>
     </div>
 
-    <div class="member-container">
-        <div class="member-card">
-            <img src="../img/kianmin-portfolio.jpg" alt="Member 1">
-            <h3>Tan Kian Min</h3>
-            <p>About us</p>
-            <a href="../portfolio/Tan_Kian_Min/tan-kian-min.html" class="member-btn">View Portfolio</a>
-        </div>
-
-        <div class="member-card">
-            <img src="../img/YaoHuiprofilepic.jpg" alt="Member 2">
-            <h3>Wong Yao Hui</h3>
-            <p>Home</p>
-            <a href="../portfolio/Wong_Yao_Hui/wong-yao-hui.html" class="member-btn">View Portfolio</a>
-        </div>
-
-        <div class="member-card">
-            <img src="../img/Portfolio-Mu Haifeng.jpg" alt="Member 3">
-            <h3>Mu Hai Feng</h3>
-            <p>Member</p>
-            <a href="../portfolio/Mu_Hai_Feng/mu-hai-feng.html" class="member-btn">View Portfolio</a>
-        </div>
-
-        <div class="member-card">
-            <img src="../img/hoo_zheng_xuan_portfolio.jpeg" alt="Member 4">
-            <h3>Hoo Zheng Xuan</h3>
-            <p>Menu</p>
-            <a href="../portfolio/Hoo_Zheng_Xuan/hoo-zheng-xuan.html" class="member-btn">View Portfolio</a>
-        </div>
+    <div class="portfolio-card">
+      <img src="event2.jpg" alt="Tea Ceremony">
+      <h3>Tea Ceremony</h3>
+      <p>Celebrating the art of tea with cultural traditions.</p>
     </div>
-</section>
 
-<footer class="footer">
-    <div class="container">
-        <div class="footer-col">
-            <h4>Moon Tea & Coffee</h4>
-            <p>Sip the Moon, Find Your Calm!</p>
-            <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
-        </div>
-
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Product Menu</a>
-            <a href="team.html">Team Portfolio</a>
-            <a href="member.html">Member Registration</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p><i class="fas fa-envelope"></i> hello@moontea.com</p>
-            <p><i class="fas fa-phone"></i> +60 10-630-0000</p>
-            <div style="display:flex; gap:14px; margin-top:12px; font-size:1.4rem;">
-                <a href="https://www.instagram.com/moonteacoffee"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/moonteacoffee"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <span>🌙 Crafted with care · Moon Tea & Coffee</span>
-        </div>
+    <div class="portfolio-card">
+      <img src="event3.jpg" alt="Community Gathering">
+      <h3>Community Gathering</h3>
+      <p>Bringing people together over coffee and conversation.</p>
     </div>
-</footer>
 
-<script src="../js/main.js"></script>
+    <div class="portfolio-card">
+      <img src="event4.jpg" alt="Seasonal Launch">
+      <h3>Seasonal Launch</h3>
+      <p>Introducing new drinks and pastries every season.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+  </footer>
 </body>
 </html>
