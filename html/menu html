@@ -3,44 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu | Moon Tea Coffee</title>
+  <title>Menu | MoonTea Coffee</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="menu.css">
 </head>
 <body>
   <header>
-    <h1>Moon Tea Coffee</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+    <h1>MoonTea Coffee</h1>
+    <nav aria-label="Main navigation">
+      <a href="home.html">Home</a>
       <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
       <a href="member.html">Members</a>
-      <a href="contact.html">Contact</a>
+      <a href="portfolio.html">Team Portfolio</a>
     </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙 Toggle Theme</button>
   </header>
 
-  <section class="menu-hero">
-    <h2>Our Menu</h2>
-    <p>Signature drinks and pastries crafted with love.</p>
-  </section>
+  <main>
+    <section class="menu-hero fade-in">
+      <h2>Our Menu</h2>
+      <p>Signature drinks crafted with love.</p>
+    </section>
 
-  <section class="menu-container">
-    <div class="menu-card">
-      <img src="latte.jpg" alt="Moon Latte">
-      <h3>Moon Latte</h3>
-      <p>A creamy espresso blend inspired by moonlight.</p>
-      <span class="price">RM12</span>
-    </div>
+    <section class="menu-controls">
+      <input type="text" id="search" placeholder="Search drinks..." aria-label="Search drinks">
+      <select id="filter">
+        <option value="all">All Categories</option>
+        <option value="coffee">Coffee</option>
+        <option value="tea">Tea</option>
+        <option value="special">Special</option>
+      </select>
+      <select id="sort">
+        <option value="name">Sort by Name</option>
+        <option value="price">Sort by Price</option>
+      </select>
+    </section>
 
-    <div class="menu-card">
-      <img src="green-tea.jpg" alt="Jasmine Green Tea">
-      <h3>Jasmine Green Tea</h3>
-      <p>Refreshing floral notes with a calming aroma.</p>
-      <span class="price">RM10</span>
-    </div>
+    <section class="menu-container" id="menu-container">
+      <!-- Drinks dynamically rendered -->
+    </section>
+  </main>
 
-    <div class="menu-card">
-      <img src="cold-brew.jpg" alt="Cold Brew">
-      <h3>Cold Brew</h3>
-      <p>Slow-brewed coffee, smooth and bold.</p>
-      <span class="price">
+  <footer>
+    <p>&copy; 2026 MoonTea Coffee. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
