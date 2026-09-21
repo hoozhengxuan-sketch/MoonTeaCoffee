@@ -3,87 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moon Tea Coffee</title>
+  <title>MoonTea Coffee | Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #fdfcf7;
-      color: #333;
-    }
-    header {
-      background: #3e2c2c;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      margin: 0;
-    }
-    nav {
-      margin-top: 0.5rem;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-    section {
-      padding: 2rem;
-      text-align: center;
-    }
-    .hero {
-      background: url('coffee-banner.jpg') no-repeat center center/cover;
-      color: #fff;
-      padding: 6rem 2rem;
-    }
-    .hero h2 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    footer {
-      background: #3e2c2c;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
-    }
-  </style>
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
   <header>
-    <h1>Moon Tea Coffee</h1>
+    <img src="logo.png" alt="MoonTea Coffee Logo" class="logo">
+    <h1>MoonTea Coffee</h1>
     <nav>
-      <a href="#about">About</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Contact</a>
+      <a href="home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
+      <a href="portfolio.html">Team Portfolio</a>
     </nav>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
   </header>
 
-  <section class="hero">
-    <h2>Brewing Happiness Under the Moon</h2>
-    <p>Discover artisan teas and specialty coffee crafted with passion.</p>
-  </section>
+  <main>
+    <section class="hero fade-in">
+      <h2>Welcome to MoonTea Coffee</h2>
+      <p>Night-inspired bubble tea and coffee crafted for calm, cosy evenings.</p>
+      <button id="explore-btn">Explore Our Menu</button>
+    </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Moon Tea Coffee blends tradition and creativity to bring you the perfect cup. Our mission is to create a cozy space where every sip feels like home.</p>
-  </section>
+    <section class="why fade-in">
+      <h2>Why MoonTea Coffee?</h2>
+      <p>We specialise in evening-friendly blends with lower caffeine, soothing flavours, and a cosy ambience designed for relaxation.</p>
+    </section>
 
-  <section id="menu">
-    <h2>Our Menu</h2>
-    <p>Signature Moon Latte • Jasmine Green Tea • Cold Brew • Seasonal Pastries</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: hello@moonteacoffee.com</p>
-    <p>Visit us at: 123 Coffee Street, Petaling Jaya</p>
-  </section>
+    <section class="reviews fade-in">
+      <h2>Customer Reviews</h2>
+      <form id="review-form">
+        <label for="rating">Rate us:</label>
+        <select id="rating" required>
+          <option value="">Select</option>
+          <option value="⭐">⭐</option>
+          <option value="⭐⭐">⭐⭐</option>
+          <option value="⭐⭐⭐">⭐⭐⭐</option>
+          <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+          <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+        </select>
+        <textarea id="review-text" placeholder="Write your review..." required></textarea>
+        <button type="submit">Submit Review</button>
+      </form>
+      <div id="reviews-list"></div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+    <p>&copy; 2026 MoonTea Coffee. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
