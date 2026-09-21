@@ -1,167 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon Tea & Coffee · Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moon Tea Coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fdfcf7;
+      color: #333;
+    }
+    header {
+      background: #3e2c2c;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('coffee-banner.jpg') no-repeat center center/cover;
+      color: #fff;
+      padding: 6rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    footer {
+      background: #3e2c2c;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Moon Tea Coffee</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-    <div class="container">
-        <a href="home.html" class="logo">
-            <img src="../img/moontea-logo.png" alt="Moon Tea & Coffee Logo" class="logo-icon">
-            <span class="logo-text">Moon<span>Tea & Coffee</span></span>
-            <span class="slogan-tag">Sip the Moon, Find Your Calm!</span>
-        </a>
+  <section class="hero">
+    <h2>Brewing Happiness Under the Moon</h2>
+    <p>Discover artisan teas and specialty coffee crafted with passion.</p>
+  </section>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-            <i class="fas fa-bars"></i>
-        </button>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Moon Tea Coffee blends tradition and creativity to bring you the perfect cup. Our mission is to create a cozy space where every sip feels like home.</p>
+  </section>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="team.html">Team Portf.</a></li>
-            <li><a href="member.html" class="nav-cta">Login | Register</a></li>
-            <li><button id="themeToggle">🌙</button></li>
-        </ul>
-    </div>
-</header>
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <p>Signature Moon Latte • Jasmine Green Tea • Cold Brew • Seasonal Pastries</p>
+  </section>
 
-<main class="container">
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@moonteacoffee.com</p>
+    <p>Visit us at: 123 Coffee Street, Petaling Jaya</p>
+  </section>
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>
-            Every Cup,<br>
-            <span class="highlight">a Taste of Moonlight</span>
-        </h1>
-        <p>Fresh fruit tea · Aromatic coffee · Handcrafted milk tea<br>Find calm in every sip.</p>
-        <a href="menu.html" class="hero-btn">
-            Explore Menu <i class="fas fa-arrow-right"></i>
-        </a>
-    </div>
-
-    <div class="hero-image">
-        <img src="../img/moontea-feature.jpeg" alt="Featured Moon Tea Drink">
-    </div>
-</section>
-
-<h2 class="section-title">Hot picks</h2>
-<div class="card-grid">
-    <div class="card">
-        <div class="card-icon"><img src="../img/fruittea.png" alt="Fruit Tea"></div>
-        <h3>Fruit Tea</h3>
-        <p>Fresh-cut fruit × brewed tea – a calming burst of moonlight.</p>
-    </div>
-
-    <div class="card">
-        <div class="card-icon"><img src="../img/COFFEE.png" alt="Coffee"></div>
-        <h3>Brewed Coffee</h3>
-        <p>Premium Arabica beans, rich and aromatic to soothe your day.</p>
-    </div>
-
-    <div class="card">
-        <div class="card-icon"><img src="../img/MILKTEA.png" alt="Milktea"></div>
-        <h3>Classic Milk Tea</h3>
-        <p>Smooth, creamy, and hand-shaken – comfort in every sip.</p>
-    </div>
-
-    <div class="card">
-        <div class="card-icon"><img src="../img/SEASONSPECIALS.png" alt="Seasonal Specials"></div>
-        <h3>Seasonal Specials</h3>
-        <p>New flavours every month – taste the night with us.</p>
-    </div>
-</div>
-
-<div class="feature-banner">
-    <div class="quote">
-        <i class="fas fa-quote-left"></i> Sip the Moon, Find Your Calm!
-    </div>
-    <div class="sub">
-        <i class="fas fa-moon" style="color: #6C63FF;"></i> Calm · Cozy · Refreshing
-    </div>
-</div>
-
-<div class="info-panels">
-    <div class="info-panel">
-        <div class="panel-image">
-            <img src="../img/halal.jpg" alt="Halal Certification">
-        </div>
-        <div class="panel-content">
-            <h4>Halal Certification</h4>
-            <p>All drinks certified halal for Muslim consumers.</p>
-        </div>
-    </div>
-
-    <div class="info-panel">
-        <div class="panel-image">
-            <img src="../img/teagarden.png" alt="Fresh Ingredients">
-        </div>
-        <div class="panel-content">
-            <h4>Fresh Ingredients</h4>
-            <p>Direct from orchards, delivered fresh daily.</p>
-        </div>
-    </div>
-
-    <div class="info-panel">
-        <div class="panel-image">
-            <img src="../img/staff.png" alt="Crafted with Care">
-        </div>
-        <div class="panel-content">
-            <h4>Crafted with Care</h4>
-            <p>Every cup filled with moonlight and sincerity.</p>
-        </div>
-    </div>
-</div>
-
-<section class="reviews-section">
-    <h2 class="section-title">Customer Reviews</h2>
-
-    <!-- Review Module unchanged (brand-neutral) -->
-</section>
-
-</main>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer-col">
-            <h4>Moon Tea & Coffee</h4>
-            <p>Sip the Moon, Find Your Calm!</p>
-            <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
-        </div>
-
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Product Menu</a>
-            <a href="team.html">Team Portfolio</a>
-            <a href="member.html">Member Registration</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p><i class="fas fa-envelope"></i> hello@moontea.com</p>
-            <p><i class="fas fa-phone"></i> +60 10-630-0000</p>
-            <div style="display:flex; gap:14px; margin-top:12px; font-size:1.4rem;">
-                <a href="https://www.instagram.com/moonteacoffee"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/moonteacoffee"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <span>🌙 Crafted with care · Moon Tea & Coffee</span>
-        </div>
-    </div>
-</footer>
-
-<script src="../js/main.js"></script>
-<script src="../js/review.js"></script>
-
+  <footer>
+    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+  </footer>
 </body>
 </html>
