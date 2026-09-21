@@ -1,232 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon Tea & Coffee · Member Portal</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/member.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team | Moon Tea Coffee</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="member.css">
 </head>
 <body>
+  <header>
+    <h1>Moon Tea Coffee</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="menu.html">Menu</a>
+      <a href="member.html">Members</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-    <div class="container">
-        <a href="home.html" class="logo">
-            <img src="../img/moontea-logo.png" alt="Moon Tea & Coffee Logo" class="logo-icon">
-            <span class="logo-text">Moon<span>Tea & Coffee</span></span>
-            <span class="slogan-tag">Sip the Moon, Find Your Calm!</span>
-        </a>
+  <section class="team-hero">
+    <h2>Meet Our Team</h2>
+    <p>Passionate people behind every cup of tea and coffee.</p>
+  </section>
 
-        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
-            <i class="fas fa-bars"></i>
-        </button>
-
-        <ul class="nav-links" id="navLinks">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="team.html">Team Portf.</a></li>
-            <li><a href="member.html" class="nav-cta active-link">Login | Register</a></li>
-            <li><button id="themeToggle">🌙</button></li>
-        </ul>
-    </div>
-</header>
-
-<main class="container">
-
-<section class="member-hero">
-    <div class="member-hero-content">
-        <h1>Join the <span class="highlight">Moonlight Club</span></h1>
-        <p>Unlock calming rewards, free birthday drinks, and special night‑themed discounts!</p>
-    </div>
-</section>
-
-<section class="auth-card">
-
-    <div class="auth-tabs" role="tablist">
-        <button type="button" class="tab-btn active" id="tabRegister" role="tab" aria-selected="true" aria-controls="registerForm">
-            <i class="fas fa-user-plus"></i> Register
-        </button>
-        <button type="button" class="tab-btn" id="tabLogin" role="tab" aria-selected="false" aria-controls="loginForm">
-            <i class="fas fa-sign-in-alt"></i> Login
-        </button>
+  <section class="team-container">
+    <div class="team-card">
+      <img src="member1.jpg" alt="Founder">
+      <h3>Jane Moon</h3>
+      <p>Founder & Head Barista</p>
+      <p>Jane started Moon Tea Coffee with a dream to blend tradition and creativity in every sip.</p>
     </div>
 
-    <!-- Registration Form (unchanged, brand-neutral) -->
-
-</section>
-
-</main>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer-col">
-            <h4>Moon Tea & Coffee</h4>
-            <p>Sip the Moon, Find Your Calm!</p>
-            <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
-        </div>
-
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Product Menu</a>
-            <a href="team.html">Team Portfolio</a>
-            <a href="member.html">Member Registration</a>
-        </div>
-
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p><i class="fas fa-envelope"></i> hello@moontea.com</p>
-            <p><i class="fas fa-phone"></i> +60 10-630-0000</p>
-            <div style="display:flex; gap:14px; margin-top:12px; font-size:1.4rem;">
-                <a href="https://www.instagram.com/moonteacoffee"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/moonteacoffee"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <span>🌙 Crafted with care · Moon Tea & Coffee</span>
-        </div>
-    </div>
-</footer>
-
-<script src="../js/main.js"></script>
-<script src="../js/member.js"></script>
-
-</body>
-</html>
-<!-- Birthday & Terms -->
-<div class="form-step" data-step-content="3">
-    <h2 class="step-title">Step 3: Membership Preferences</h2>
-
-    <div class="form-group">
-        <label for="regDob">Date of Birth <span class="required">*</span></label>
-        <div class="input-wrapper">
-            <i class="fas fa-calendar-alt input-icon"></i>
-            <input type="date" id="regDob" required aria-describedby="errDob">
-        </div>
-        <small class="error-msg" id="errDob"></small>
+    <div class="team-card">
+      <img src="member2.jpg" alt="Tea Specialist">
+      <h3>Ken Tan</h3>
+      <p>Tea Specialist</p>
+      <p>Ken curates artisan teas from around the world, ensuring every brew is authentic and refreshing.</p>
     </div>
 
-    <div class="form-group checkbox-group">
-        <label class="custom-checkbox-label">
-            <input type="checkbox" id="regTerms">
-            <span class="checkbox-custom"></span>
-            I agree to the <a href="#" class="inline-link">Terms & Conditions</a> and Privacy Policy <span class="required">*</span>
-        </label>
-        <small class="error-msg" id="errTerms"></small>
+    <div class="team-card">
+      <img src="member3.jpg" alt="Pastry Chef">
+      <h3>Amira Lee</h3>
+      <p>Pastry Chef</p>
+      <p>Amira crafts seasonal pastries that perfectly complement our drinks, adding sweetness to your day.</p>
     </div>
+  </section>
 
-    <div class="form-group checkbox-group">
-        <label class="custom-checkbox-label">
-            <input type="checkbox" id="regNewsletter" checked>
-            <span class="checkbox-custom"></span>
-            Send me exclusive discounts and promotion alerts via email.
-        </label>
-    </div>
-</div>
-
-<!-- Form Controls -->
-<div class="form-navigation">
-    <button type="button" class="btn btn-secondary" id="prevBtn" style="display: none;">
-        <i class="fas fa-arrow-left"></i> Previous
-    </button>
-    <button type="button" class="btn btn-primary" id="nextBtn">
-        Next Step <i class="fas fa-arrow-right"></i>
-    </button>
-    <button type="submit" class="btn btn-primary" id="submitRegBtn" style="display: none;">
-        Complete Registration <i class="fas fa-check"></i>
-    </button>
-</div>
-</form>
-
-<!-- ================= LOGIN ================= -->
-<form id="loginForm" class="auth-form" novalidate>
-    <h2 class="step-title">Welcome Back!</h2>
-    <p class="login-subtext">Sign in to check your Moon Points and active vouchers.</p>
-
-    <div class="form-group">
-        <label for="loginEmail">Email / Username <span class="required">*</span></label>
-        <div class="input-wrapper">
-            <i class="fas fa-envelope input-icon"></i>
-            <input type="text" id="loginEmail" placeholder="Enter your email or username" required aria-describedby="errLoginEmail">
-        </div>
-        <small class="error-msg" id="errLoginEmail"></small>
-    </div>
-
-    <div class="form-group">
-        <label for="loginPassword">Password <span class="required">*</span></label>
-        <div class="input-wrapper">
-            <i class="fas fa-lock input-icon"></i>
-            <input type="password" id="loginPassword" placeholder="Enter your password" required aria-describedby="errLoginPassword">
-        </div>
-        <small class="error-msg" id="errLoginPassword"></small>
-    </div>
-
-    <button type="submit" class="btn btn-primary btn-block">
-        Sign In <i class="fas fa-sign-in-alt"></i>
-    </button>
-</form>
-
-<!-- Greeting -->
-<div id="greetingContainer" class="greeting-box hidden" aria-live="polite">
-    <div class="greeting-icon"><i class="fas fa-moon"></i></div>
-    <h2 id="greetingTitle">Welcome Back, Moonlight Member!</h2>
-    <p id="greetingMessage">We are brewing your favorite drink with calm and comfort today.</p>
-    
-    <div class="member-stats">
-        <div class="stat-item">
-            <span class="stat-number" id="userPoints">150</span>
-            <span class="stat-label">Moon Points</span>
-        </div>
-        <div class="stat-item">
-            <span class="stat-number" id="userTier">Gold</span>
-            <span class="stat-label">Member Tier</span>
-        </div>
-    </div>
-
-    <button type="button" class="btn btn-secondary" id="logoutBtn">
-        <i class="fas fa-sign-out-alt"></i> Log Out
-    </button>
-</div>
-
-</section>
-</main>
-
-<!-- ========== Footer ========== -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-col">
-            <h4>Moon Tea & Coffee</h4>
-            <p>Sip the Moon, Find Your Calm!</p>
-            <p style="margin-top:8px; color:#888;">© 2026 All rights reserved</p>
-        </div>
-        <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="menu.html">Product Menu</a>
-            <a href="team.html">Team Portfolio</a>
-            <a href="member.html">Member Registration</a>
-        </div>
-        <div class="footer-col">
-            <h4>Contact</h4>
-            <p><i class="fas fa-envelope"></i> hello@moontea.com</p>
-            <p><i class="fas fa-phone"></i> +60 10-630-0000</p>
-            <div style="display:flex; gap:14px; margin-top:12px; font-size:1.4rem;">
-                <a href="https://www.instagram.com/moonteacoffee" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/moonteacoffee" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>🌙 Crafted with care · Moon Tea & Coffee</span>
-        </div>
-    </div>
-</footer>
-
-<script src="../js/member.js"></script>
-<script src="../js/main.js"></script>
+  <footer>
+    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+  </footer>
 </body>
 </html>
