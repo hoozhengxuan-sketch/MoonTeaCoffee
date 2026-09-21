@@ -3,56 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Moon Tea Coffee</title>
+  <title>Portfolio | MoonTea Coffee</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
   <header>
-    <h1>Moon Tea Coffee</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+    <h1>MoonTea Coffee</h1>
+    <nav aria-label="Main navigation">
+      <a href="home.html">Home</a>
       <a href="menu.html">Menu</a>
+      <a href="about.html">About Us</a>
       <a href="member.html">Members</a>
       <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
     </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙 Toggle Theme</button>
   </header>
 
-  <section class="portfolio-hero">
-    <h2>Our Portfolio</h2>
-    <p>Showcasing our creative journey and community events.</p>
-  </section>
+  <main>
+    <section class="portfolio-hero fade-in">
+      <h2>Our Portfolio</h2>
+      <p>Showcasing our creative journey and community events.</p>
+    </section>
 
-  <section class="portfolio-grid">
-    <div class="portfolio-card">
-      <img src="event1.jpg" alt="Coffee Workshop">
-      <h3>Coffee Workshop</h3>
-      <p>Hands-on brewing sessions with our baristas.</p>
-    </div>
+    <section class="portfolio-grid fade-in">
+      <div class="portfolio-card">
+        <img src="event1.jpg" alt="Coffee Workshop">
+        <h3>Coffee Workshop</h3>
+        <p>Hands-on brewing sessions with our baristas.</p>
+        <button class="view-btn">View Details</button>
+        <div class="details hidden">
+          <p>Jane led this workshop, teaching latte art and brewing techniques.</p>
+        </div>
+      </div>
 
-    <div class="portfolio-card">
-      <img src="event2.jpg" alt="Tea Ceremony">
-      <h3>Tea Ceremony</h3>
-      <p>Celebrating the art of tea with cultural traditions.</p>
-    </div>
+      <div class="portfolio-card">
+        <img src="event2.jpg" alt="Tea Ceremony">
+        <h3>Tea Ceremony</h3>
+        <p>Celebrating the art of tea with cultural traditions.</p>
+        <button class="view-btn">View Details</button>
+        <div class="details hidden">
+          <p>Ken curated teas and explained their origins.</p>
+        </div>
+      </div>
 
-    <div class="portfolio-card">
-      <img src="event3.jpg" alt="Community Gathering">
-      <h3>Community Gathering</h3>
-      <p>Bringing people together over coffee and conversation.</p>
-    </div>
+      <div class="portfolio-card">
+        <img src="event3.jpg" alt="Community Gathering">
+        <h3>Community Gathering</h3>
+        <p>Bringing people together over coffee and conversation.</p>
+        <button class="view-btn">View Details</button>
+        <div class="details hidden">
+          <p>Amira organized pastries and coordinated the event.</p>
+        </div>
+      </div>
 
-    <div class="portfolio-card">
-      <img src="event4.jpg" alt="Seasonal Launch">
-      <h3>Seasonal Launch</h3>
-      <p>Introducing new drinks and pastries every season.</p>
-    </div>
-  </section>
+      <div class="portfolio-card">
+        <img src="event4.jpg" alt="Seasonal Launch">
+        <h3>Seasonal Launch</h3>
+        <p>Introducing new drinks and pastries every season.</p>
+        <button class="view-btn">View Details</button>
+        <div class="details hidden">
+          <p>Team collaborated on seasonal menu design and marketing.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2026 Moon Tea Coffee. All rights reserved.</p>
+    <p>&copy; 2026 MoonTea Coffee. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
