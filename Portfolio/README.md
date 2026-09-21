@@ -1,2 +1,2 @@
 # Hoo Zheng Xuan
-#  Wei Hao is gay
+a member of the project
