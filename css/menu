@@ -1,27 +1,25 @@
-/* menu.css - Moon Tea Coffee */
+/* menu.css - MoonTea Coffee */
+
+:root {
+  --primary-color: #3e2c2c;
+  --accent-color: #f0c674;
+  --bg-color: #fdfcf7;
+  --text-color: #333;
+}
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #fdfcf7;
-  color: #333;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Header */
 header {
-  background: #3e2c2c;
+  background: var(--primary-color);
   color: #fff;
   padding: 1rem;
   text-align: center;
-}
-
-header h1 {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-}
-
-nav {
-  margin-top: 0.5rem;
 }
 
 nav a {
@@ -32,10 +30,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #f0c674;
+  color: var(--accent-color);
 }
 
-/* Hero Section */
+button, select, input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
 .menu-hero {
   background: url('menu-banner.jpg') no-repeat center center/cover;
   color: #fff;
@@ -43,22 +45,16 @@ nav a:hover {
   text-align: center;
 }
 
-.menu-hero h2 {
-  font-size: 2.5rem;
-  margin: 0;
+.menu-controls {
+  text-align: center;
+  margin: 1rem;
 }
 
-.menu-hero p {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-/* Menu Cards */
 .menu-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 3rem 2rem;
+  padding: 2rem;
   gap: 2rem;
 }
 
@@ -66,8 +62,8 @@ nav a:hover {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  width: 250px;
-  padding: 1.5rem;
+  width: 220px;
+  padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -77,56 +73,37 @@ nav a:hover {
   transform: translateY(-5px);
 }
 
-.menu-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 1rem;
-}
-
 .menu-card h3 {
   font-family: 'Playfair Display', serif;
-  margin: 0.5rem 0;
-  color: #3e2c2c;
-}
-
-.menu-card p {
-  margin: 0.5rem 0;
-  line-height: 1.4;
+  color: var(--primary-color);
 }
 
 .price {
-  display: block;
-  margin-top: 0.5rem;
   font-weight: bold;
-  color: #f0c674;
+  color: var(--accent-color);
 }
 
-/* Footer */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 footer {
-  background: #3e2c2c;
+  background: var(--primary-color);
   color: #fff;
   text-align: center;
   padding: 1rem;
-  font-size: 0.9rem;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .menu-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu-card {
-    width: 90%;
-  }
-
-  .menu-hero {
-    padding: 3rem 1rem;
-  }
-
-  .menu-hero h2 {
-    font-size: 2rem;
-  }
+.dark-theme {
+  --bg-color: #222;
+  --text-color: #fdfcf7;
+  --primary-color: #111;
+  --accent-color: #c9a227;
 }
